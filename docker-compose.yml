@@ -1,0 +1,10 @@
+version: '3'
+services:
+  bors_app:
+    build: .
+    ports:
+      - "8080:8080"
+    links:
+      - redis:redis
+  redis:
+    image: "redis:alpine"
