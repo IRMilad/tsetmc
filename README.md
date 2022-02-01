@@ -9,7 +9,7 @@ run tsetmc filters at the highest speed
 
 ## python Example
 
-```
+```python
 import requests
 
 def tsetmc(filters, check=False, settings={}):
